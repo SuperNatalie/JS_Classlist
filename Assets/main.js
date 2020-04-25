@@ -19,3 +19,14 @@ function changeBig(){
     text.classList.remove("middle");
     text.classList.add("big")
 }
+
+
+
+
+// Short version 
+
+ function applyClass(c) {
+     const element = document.getElementById("element");
+    element.classList.remove("small", "middle", "big");
+     element.classList.add(c);
+ }
